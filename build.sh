@@ -9,4 +9,4 @@ fi
 
 cd /go/src/github.com/appcelerator/$1
 make install
-cp /go/bin/$1 .
+cp /go/bin/$1 $1.alpine
